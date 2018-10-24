@@ -100,6 +100,7 @@ header {
       border-bottom: 2px solid #cdcdcd;
       height: 90px;
       margin-bottom: 40px;
+      width: 100%;
 }
 
 h1 {
@@ -234,4 +235,29 @@ a:hover {
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media screen and (max-width: 980px) {
+    section {
+        width: 540px;     
+    }
+    .top {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: auto;
+        margin: 1rem;     
+    }
+    }
+    .top {
+        box-sizing: content-box;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
 }
