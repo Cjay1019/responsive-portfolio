@@ -248,16 +248,47 @@ a:hover {
 
 @media screen and (max-width: 768px) {
     section {
-        width: auto;
-        margin: 1rem;     
-    }
-    }
+        width: 540px;
+    }    
     .top {
-        box-sizing: content-box;
-
+        width: 540px;
     }
 }
 
 @media screen and (max-width: 640px) {
-    
+    section {
+        width: auto;
+        margin: 0;
+    }
+    header { 
+        height: 300px;
+    }
+    #portrait {
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+        margin: auto;
+    }
+    .top {
+        margin: 0;
+        width: 100%;
+    }
+    nav {
+        width: 100%;
+        padding: auto;
+        text-align: center;
+        margin: auto;
+    }
+    #row {
+        display: block;  
+    }
+    #relative {
+        margin: 0 auto 40px auto;
+    }
+    .port-pic {
+        margin-right: 0;
+    }
 }
